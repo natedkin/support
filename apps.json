@@ -1044,6 +1044,136 @@
           }
         ]
       }
+    },
+    {
+      "slug": "going-up",
+      "aliases": [],
+      "name": "Going Up! Elevator Puzzle",
+      "store_id": "6822757220",
+      "live": false,
+      "version": "1.0",
+      "category": "Puzzle game",
+      "icon": "assets/icons/going-up.png",
+      "header": null,
+      "tagline": "Last on, first off.",
+      "summary": "Elevator loading logic puzzle.",
+      "intro": [
+        "You run the elevator in a busy building. Riders stand in the car in the order they board, and whoever got on last is right by the door. The car stops at every floor from the bottom up, and the rider at the door steps out at their floor, until someone headed higher is in the way. Load it right and everybody gets home in one smooth trip."
+      ],
+      "lists": [
+        {
+          "title": "What's inside",
+          "items": [
+            "60 buildings across Maple Street, Harbor Heights, Velvet Tower, Pairview Plaza and Skyline One",
+            "A guided first building that walks you through boarding, the bench and GO",
+            "VIPs in top hats who always stand at the door, and twins who take two spots",
+            "No timers and no lives: undo any move before you send the car",
+            "Plays offline, no account"
+          ]
+        },
+        {
+          "title": "iPhone Duo",
+          "text": [
+            "Open it up and the building sits on one page while the other shows a floor board and a live preview of who gets out on which floor if you send the car right now. Half folded on a table, the building stands up and the lobby, bench and keys lie flat."
+          ]
+        }
+      ],
+      "pricing": {
+        "text": [
+          "Free to play. Optional reward videos for an extra hint or +2 trips when you run out, never forced, and never in the first three buildings. No banners and no ads between levels.",
+          "Optional purchases:"
+        ],
+        "items": [
+          "Remove Ads (extra hints and +2 trips with no video)",
+          "Starter Pack (1,000 coins, 3 Rewinds, 3 Extra Seats)",
+          "500, 3,000 and 7,000 coin packs"
+        ],
+        "after": [
+          "No subscription. Every building can be finished without buying anything."
+        ]
+      },
+      "purchases": [
+        "Remove Ads",
+        "Starter Pack",
+        "500 Coins",
+        "3000 Coins",
+        "7000 Coins"
+      ],
+      "faq": [
+        {
+          "q": "Why did nobody get out?",
+          "a": "The rider at the door was going higher than the floor the car stopped at, so everyone behind them rode back down. Put the lowest floor at the door before you tap GO."
+        },
+        {
+          "q": "How do I use the bench?",
+          "a": "Tap the rider standing at the car door to sit them on the bench. Tap a benched rider to board them again. They step in at the door."
+        },
+        {
+          "q": "How do I see the first-building guide again?",
+          "a": "Settings, then Replay the first-building guide. It plays next time you open Maple Street 1."
+        },
+        {
+          "q": "How do I restore purchases?",
+          "a": "Tap Restore Purchases in the Shop or in Settings, signed in with the same Apple Account."
+        },
+        {
+          "q": "Found a bug?",
+          "a": "Email support and include your iPhone model and iOS version."
+        }
+      ],
+      "data": {
+        "ads": "Optional reward videos only",
+        "tracking_prompt": true,
+        "consent_form": true,
+        "icloud": false,
+        "account": false,
+        "subscription": false,
+        "notifications": false,
+        "health": false
+      },
+      "privacy": {
+        "updated": "2026-11-11",
+        "sections": [
+          {
+            "h": "Information we collect",
+            "p": [
+              "None directly. No account, login or server run by us. Your progress, coins and settings stay on your device."
+            ]
+          },
+          {
+            "h": "Advertising and tracking",
+            "p": [
+              "Optional reward videos play only when you choose one (an extra hint, or +2 trips when you run out). There are no banners and no ads between levels, and no videos are offered in the first three buildings. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
+              "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
+              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads gives every reward with no video."
+            ]
+          },
+          {
+            "h": "Purchases",
+            "p": [
+              "Optional purchases: Remove Ads and the Starter Pack (one-time), and 500, 3,000 and 7,000 coin packs. No subscription. Apple processes all payments; we never see your payment details."
+            ]
+          },
+          {
+            "h": "Permissions",
+            "p": [
+              "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
+            ]
+          },
+          {
+            "h": "Your control",
+            "p": [
+              "Deleting the app removes its data from your device."
+            ]
+          },
+          {
+            "h": "Children",
+            "p": [
+              "Not directed to children under 13. We don't knowingly collect personal information from children."
+            ]
+          }
+        ]
+      }
     }
   ]
 }
