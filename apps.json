@@ -914,6 +914,136 @@
           }
         ]
       }
+    },
+    {
+      "slug": "twig-tinsel",
+      "aliases": [],
+      "name": "Twig & Tinsel: Christmas Tree",
+      "store_id": "6826637088",
+      "live": false,
+      "version": "1.0",
+      "category": "Games",
+      "icon": "assets/icons/twig-tinsel.png",
+      "header": "assets/headers/twig-tinsel.jpg",
+      "tagline": "Decorate a Christmas tree where every bough bends.",
+      "summary": "Ornament decorating game with springy boughs.",
+      "intro": [
+        "Hang an ornament and the branch dips, sways and settles. Hang a heavy brass bell on one side and the whole tree starts to lean. Trim it to the brief, keep it standing straight, then plug in the lights."
+      ],
+      "lists": [
+        {
+          "title": "What's inside",
+          "items": [
+            "24 decorating briefs from 8 households, each read out loud",
+            "Glass, felt, wood, brass and keepsake ornaments, each with its own weight",
+            "Lights and garlands you drag end to end between two hooks",
+            "Free Trim: decorate any tree with no brief, save it and keep a photo card",
+            "The Advent Box: a new ornament every day from December 1 to 24",
+            "Both Sides: dress the front and the back of one tree",
+            "Winter Lodge from December 26: a birch, a lodge pine and six winter briefs"
+          ]
+        },
+        {
+          "title": "iPhone Duo",
+          "text": [
+            "Held like a book, the brief and the ornament box sit on one page and the tree on the other. Half folded on a table, the tree stands up and the box lies flat. Open flat, two people can trim Both Sides face to face."
+          ]
+        }
+      ],
+      "pricing": {
+        "text": [
+          "Free to play: the first brief from every household, Free Trim on the noble fir, Both Sides, the whole Advent Box and photo cards.",
+          "The Full Tree is a one-time purchase that adds the other 16 briefs, the 6 Winter Lodge briefs, every tree, every ornament family, all lights, garlands and toppers, six save shelves and twinkle clips. No subscription and no ads."
+        ]
+      },
+      "purchases": [
+        "Full Tree (one-time)"
+      ],
+      "faq": [
+        {
+          "q": "Can ornaments fall off?",
+          "a": "No. An overloaded bough lets the piece slide down to a lower bough, and if nothing can hold it, it goes back to the box."
+        },
+        {
+          "q": "Why did my lights go dark?",
+          "a": "A strand pulled tighter than its length unplugs. Move one end to a closer hook."
+        },
+        {
+          "q": "I missed a day of the Advent Box.",
+          "a": "Nothing is lost. Every day that has passed opens when you visit, and opened pieces stay in your box."
+        },
+        {
+          "q": "How do I restore the Full Tree?",
+          "a": "Tap Restore on the Full Tree panel or in Settings, signed in with the same Apple Account."
+        },
+        {
+          "q": "Can I replay the tutorial?",
+          "a": "Yes. Settings > Replay tutorial."
+        }
+      ],
+      "data": {
+        "ads": "None",
+        "tracking_prompt": false,
+        "consent_form": false,
+        "icloud": false,
+        "account": false,
+        "subscription": false,
+        "notifications": false,
+        "health": false
+      },
+      "privacy": {
+        "updated": "2026-11-11",
+        "sections": [
+          {
+            "h": "Your data stays on your device",
+            "p": [
+              "Twig & Tinsel has no accounts and no server run by us. Your progress (stars, finished trees, saved trees, which Advent pieces you have opened) and your settings (sound, music, voices, captions, haptics) are stored only on your iPhone. They are never sent to us or anyone else."
+            ]
+          },
+          {
+            "h": "Advertising and tracking",
+            "p": [
+              "No ads, no third-party advertising or analytics SDKs, and no tracking across apps or websites. We don't collect your name, email, location, contacts, advertising identifiers or usage analytics. The game doesn't need the internet to play."
+            ]
+          },
+          {
+            "h": "Purchases",
+            "p": [
+              "The optional Full Tree is a one-time in-app purchase. Apple processes all payments through the App Store; we never receive your payment details. Apple confirms what you own on your device so the Full Tree can unlock and restore. Apple's handling is covered by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/)."
+            ]
+          },
+          {
+            "h": "iCloud",
+            "p": [
+              "Not used. Your progress is not synced to any cloud service."
+            ]
+          },
+          {
+            "h": "Photos",
+            "p": [
+              "Photo cards and twinkle clips are shared through the iOS share sheet and go only where you send them. If you pick Save Image there, iOS asks once for permission to add it to your photo library. The app never reads your photos."
+            ]
+          },
+          {
+            "h": "Permissions",
+            "p": [
+              "Add to Photos, only if you save a photo card from the share sheet. Twig & Tinsel does not access location, contacts, camera, microphone, notifications or Apple Health."
+            ]
+          },
+          {
+            "h": "Your control",
+            "p": [
+              "Deleting the app removes its data from your device."
+            ]
+          },
+          {
+            "h": "Children",
+            "p": [
+              "Twig & Tinsel collects no personal information from anyone, including children."
+            ]
+          }
+        ]
+      }
     }
   ]
 }
