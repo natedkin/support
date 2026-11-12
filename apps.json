@@ -1174,6 +1174,132 @@
           }
         ]
       }
+    },
+    {
+      "slug": "scribble-squad",
+      "aliases": [],
+      "name": "Scribble Squad: Draw Puzzle",
+      "store_id": "6822509644",
+      "live": false,
+      "version": "1.0",
+      "category": "Puzzle game",
+      "icon": "assets/icons/scribble-squad.png",
+      "header": null,
+      "tagline": "Draw the way. Save the squad.",
+      "summary": "Line-drawing puzzle with a marching squad.",
+      "intro": [
+        "Five doodle kids march out of a hatch and they won't stop walking. Every line you draw with your limited ink turns into solid ground, so you draw bridges, ramps and walls to get them to the door. Steep lines are walls, big drops knock walkers out, and you can keep drawing while they're on the move."
+      ],
+      "lists": [
+        {
+          "title": "What's inside",
+          "items": [
+            "100 puzzles in 10 chapters, from Sketchbook to Final Exam",
+            "Springs, fans, belts, saws, no-draw zones, short pencils and two start boxes",
+            "A daily puzzle with a bigger squad and a streak to keep",
+            "A guided first level, and hints that show a dotted outline of one way through",
+            "Plays offline, no account"
+          ]
+        },
+        {
+          "title": "iPhone Duo",
+          "text": [
+            "Open it up and the level sits on one page while the other keeps Pip's note for the level, a live count of who's walking, home and lost, Hint and Retry with your lines, and the chapter map. Half folded on a table, the page stands up and the controls lie flat."
+          ]
+        }
+      ],
+      "pricing": {
+        "text": [
+          "Free to play. Optional reward videos for an extra hint when you run out, or to retry a level with 50% more ink, never forced. No banners and no ads between levels.",
+          "Optional purchases:"
+        ],
+        "items": [
+          "Remove Ads (extra hints and the bonus ink retry with no video)",
+          "10 Hints"
+        ],
+        "after": [
+          "No subscription. Every level can be finished without buying anything."
+        ]
+      },
+      "purchases": [
+        "Remove Ads",
+        "10 Hints"
+      ],
+      "faq": [
+        {
+          "q": "Why did my walkers get knocked out?",
+          "a": "They fell too far. Draw a gentle ramp or slide down instead of a sheer drop."
+        },
+        {
+          "q": "Why do walkers turn around?",
+          "a": "Steep lines count as walls. Walkers turn back when they bump one, so keep bridges and ramps gentle."
+        },
+        {
+          "q": "How do I see the first-level lesson again?",
+          "a": "Settings, then Replay tutorial. It plays next time you open level 1."
+        },
+        {
+          "q": "How do I restore purchases?",
+          "a": "Tap Restore Purchases in Settings or on the Remove Ads card, signed in with the same Apple Account."
+        },
+        {
+          "q": "Found a bug?",
+          "a": "Email support and include your iPhone model and iOS version."
+        }
+      ],
+      "data": {
+        "ads": "Optional reward videos only",
+        "tracking_prompt": true,
+        "consent_form": true,
+        "icloud": false,
+        "account": false,
+        "subscription": false,
+        "notifications": false,
+        "health": false
+      },
+      "privacy": {
+        "updated": "2026-11-11",
+        "sections": [
+          {
+            "h": "Information we collect",
+            "p": [
+              "None directly. No account, login or server run by us. Your progress, hints and settings stay on your device."
+            ]
+          },
+          {
+            "h": "Advertising and tracking",
+            "p": [
+              "Optional reward videos play only when you choose one (an extra hint when you run out, or a retry with 50% more ink after a miss). There are no banners and no ads between levels. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
+              "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
+              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads gives every reward with no video."
+            ]
+          },
+          {
+            "h": "Purchases",
+            "p": [
+              "Optional purchases: Remove Ads (one-time) and 10 Hints. No subscription. Apple processes all payments; we never see your payment details."
+            ]
+          },
+          {
+            "h": "Permissions",
+            "p": [
+              "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
+            ]
+          },
+          {
+            "h": "Your control",
+            "p": [
+              "Deleting the app removes its data from your device. Settings also has Reset Progress."
+            ]
+          },
+          {
+            "h": "Children",
+            "p": [
+              "Not directed to children under 13. We don't knowingly collect personal information from children."
+            ]
+          }
+        ]
+      }
     }
   ]
 }
