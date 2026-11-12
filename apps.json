@@ -935,12 +935,13 @@
           "title": "What's inside",
           "items": [
             "24 decorating briefs from 8 households, each read out loud",
+            "Every household has its own tree: tabletop pine, blue spruce, noble fir, lodge pine or bare birch, small, medium or tall",
             "Glass, felt, wood, brass and keepsake ornaments, each with its own weight",
             "Lights and garlands you drag end to end between two hooks",
             "Free Trim: decorate any tree with no brief, save it and keep a photo card",
             "The Advent Box: a new ornament every day from December 1 to 24",
             "Both Sides: dress the front and the back of one tree",
-            "Winter Lodge from December 26: a birch, a lodge pine and six winter briefs"
+            "Winter Lodge from December 26: pinecones, icicles, lanterns and six winter briefs"
           ]
         },
         {
@@ -967,6 +968,10 @@
         {
           "q": "Why did my lights go dark?",
           "a": "A strand pulled tighter than its length unplugs. Move one end to a closer hook."
+        },
+        {
+          "q": "Where do I plug in the lights?",
+          "a": "Hang a light strand with both ends on hooks, then tap the outlet on the floor next to the tree stand. It pulses once a strand is ready."
         },
         {
           "q": "I missed a day of the Advent Box.",
