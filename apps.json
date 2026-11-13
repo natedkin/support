@@ -1,1310 +1,1428 @@
 {
-  "site": {
-    "title": "Nathan Edkin Apps",
-    "publisher": "Nathan Edkin",
-    "email": "natedkinsupport@gmail.com",
-    "base": "/support",
-    "url": "https://natedkin.github.io/support",
-    "updated": "2026-11-03",
-    "year": "2026"
-  },
-  "apps": [
+ "site": {
+  "title": "Nathan Edkin Apps",
+  "publisher": "Nathan Edkin",
+  "email": "natedkinsupport@gmail.com",
+  "base": "/support",
+  "url": "https://natedkin.github.io/support",
+  "updated": "2026-11-03",
+  "year": "2026"
+ },
+ "apps": [
+  {
+   "slug": "fitness-test-pro-elite",
+   "aliases": [
+    "aft-pro-elite"
+   ],
+   "name": "Fitness Test Pro Elite",
+   "store_id": "1041734680",
+   "live": true,
+   "version": "3.5.3",
+   "category": "Health & Fitness",
+   "icon": "assets/icons/fitness-test-pro-elite.png",
+   "header": null,
+   "tagline": "Score any military fitness test in seconds.",
+   "summary": "Fitness test calculator for every branch.",
+   "intro": [
+    "Fitness Test Pro Elite is a fitness test calculator for the Army, Navy, Air Force, Marine Corps, Coast Guard and special operations screening tests. Pick your branch, enter your events and see your total and pass/fail using the published scoring tables."
+   ],
+   "lists": [
     {
-      "slug": "fitness-test-pro-elite",
-      "aliases": [
-        "aft-pro-elite"
-      ],
-      "name": "Fitness Test Pro Elite",
-      "store_id": "1041734680",
-      "live": true,
-      "version": "3.5.3",
-      "category": "Health & Fitness",
-      "icon": "assets/icons/fitness-test-pro-elite.png",
-      "header": null,
-      "tagline": "Score any military fitness test in seconds.",
-      "summary": "Fitness test calculator for every branch.",
-      "intro": [
-        "Fitness Test Pro Elite is a fitness test calculator for the Army, Navy, Air Force, Marine Corps, Coast Guard and special operations screening tests. Pick your branch, enter your events and see your total and pass/fail using the published scoring tables."
-      ],
-      "lists": [
-        {
-          "title": "Branches and tests",
-          "items": [
-            "Army: Army Fitness Test (AFT), alternate aerobic events, Combat or General standard by MOS, Combat Field Test timer, waist-to-height check",
-            "Navy: Physical Readiness Test with altitude adjustments, Navy Combat Fitness Test, body composition",
-            "Air Force: PFRA with the 2026 scoring charts, waist-to-height component, special warfare standards",
-            "Marine Corps: PFT and CFT, class thresholds, body composition",
-            "Coast Guard: PFT with run, row or swim, body composition",
-            "Special operations: selection-course entry tests such as the SEAL and SWCC PST, Air Force special warfare, MARSOC, Ranger and Special Forces screeners"
-          ]
-        },
-        {
-          "title": "iPhone Duo",
-          "text": [
-            "On the open inner display, the menu sits on the left page and the calculator on the right, with your live score next to your inputs."
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to score a test in every branch. Ads appear on result screens.",
-          "The Full Version is a one-time purchase per branch, or All Branches unlocks every branch, including branches added later. Any purchase removes ads. No subscription.",
-          "Full Version adds saved results and history, event-by-event breakdowns, target and goal planners, and branch extras like combat fitness tests, body composition, scoring tables and guided timers."
-        ]
-      },
-      "purchases": [
-        "Army Full Version",
-        "Navy Full Version",
-        "Air Force Full Version",
-        "Marine Corps Full Version",
-        "Coast Guard Full Version",
-        "SOF Screening Full Version",
-        "All Branches"
-      ],
-      "faq": [
-        {
-          "q": "Is this an official app?",
-          "a": "No. Fitness Test Pro Elite is an independent, unofficial calculator. It is not affiliated with, endorsed by or sponsored by the U.S. Army, Navy, Air Force, Marine Corps, Coast Guard, Department of Defense, Department of Homeland Security or any government agency. Official results come from your command's fitness program and current policy."
-        },
-        {
-          "q": "How do I restore a purchase?",
-          "a": "Tap Restore Purchases in the paywall or in About, signed in with the same Apple Account."
-        },
-        {
-          "q": "How do I remove ads?",
-          "a": "Buy any branch or All Branches."
-        },
-        {
-          "q": "Where are my results saved?",
-          "a": "On your device only. No login, no account, no cloud sync."
-        }
-      ],
-      "data": {
-        "ads": "Banner and full-screen ads (free version)",
-        "tracking_prompt": true,
-        "consent_form": true,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-03",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. There is no account, login or server run by us. The scores, measurements and results you enter stay on your device. We cannot see them."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "The free version shows ads on result screens (a banner and occasional full-screen ads). Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice later under Ad Privacy Choices in the app.",
-              "On first launch the app asks permission through Apple's App Tracking Transparency. If you decline, you still get every feature and AdMob shows non-personalized ads.",
-              "AdMob may collect your device's advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Any purchase removes ads."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "Optional one-time purchases unlock the Full Version for a branch (Army, Navy, Air Force, Marine Corps, Coast Guard, SOF screening) or All Branches. There is no subscription. Apple processes all payments through the App Store; we never see your payment details. Apple confirms your purchases on your device so they can unlock and restore."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Not used. Your results are not synced anywhere."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "The only permission the app asks for is App Tracking Transparency, described above. It does not access Apple Health, location, contacts, camera, microphone or photos."
-            ]
-          },
-          {
-            "h": "What we don't collect",
-            "p": [
-              "No name, email, contacts or analytics run by us."
-            ]
-          },
-          {
-            "h": "Your control",
-            "p": [
-              "Delete saved results in the app. Deleting the app removes all of its data from your device."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Not directed to children under 13. We don't knowingly collect personal information from children."
-            ]
-          },
-          {
-            "h": "Not affiliated",
-            "p": [
-              "Fitness Test Pro Elite is independent and not affiliated with or endorsed by any military branch, the Department of Defense, the Department of Homeland Security or any government agency."
-            ]
-          }
-        ]
-      }
+     "title": "Branches and tests",
+     "items": [
+      "Army: Army Fitness Test (AFT), alternate aerobic events, Combat or General standard by MOS, Combat Field Test timer, waist-to-height check",
+      "Navy: Physical Readiness Test with altitude adjustments, Navy Combat Fitness Test, body composition",
+      "Air Force: PFRA with the 2026 scoring charts, waist-to-height component, special warfare standards",
+      "Marine Corps: PFT and CFT, class thresholds, body composition",
+      "Coast Guard: PFT with run, row or swim, body composition",
+      "Special operations: selection-course entry tests such as the SEAL and SWCC PST, Air Force special warfare, MARSOC, Ranger and Special Forces screeners"
+     ]
     },
     {
-      "slug": "unhabit",
-      "aliases": [],
-      "name": "Unhabit",
-      "store_id": "6782653637",
-      "live": true,
-      "version": "1.1.0",
-      "category": "Health & Fitness",
-      "icon": "assets/icons/unhabit.png",
-      "header": null,
-      "tagline": "Quit habits and track recovery, without the all-or-nothing reset.",
-      "summary": "Quit habits and track recovery.",
-      "intro": [
-        "Most habit trackers treat one slip like a full reset. Unhabit helps you recover quickly, understand your triggers and keep moving forward. Log cravings in seconds, record slips without losing your journey, and watch your Recovery Score grow."
-      ],
-      "lists": [
-        {
-          "title": "Highlights",
-          "items": [
-            "Log cravings and slips in seconds",
-            "Recovery Score instead of fragile streaks",
-            "Milestones, patterns and triggers",
-            "Export your recovery report",
-            "Private and local-first: your logs stay on your iPhone"
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Unhabit is free and tracks two unhabits at once. Unhabit Pro is a one-time purchase with no subscription and no ads. Pro adds:"
-        ],
-        "items": [
-          "Track every unhabit at once",
-          "Streak history and advanced analytics",
-          "All recovery insights and full weekly reviews",
-          "The full milestone path",
-          "Home and Lock Screen widgets",
-          "Extra looks with matching app icons"
-        ],
-        "after": [
-          "Earlier Unhabit Premium purchases (yearly or Lifetime) keep everything."
-        ]
-      },
-      "purchases": [
-        "Unhabit Pro (one-time)"
-      ],
-      "faq": [
-        {
-          "q": "How do I restore Pro?",
-          "a": "Tap Restore Purchases in Settings, signed in with the same Apple Account."
-        },
-        {
-          "q": "I had Premium. Do I need Pro?",
-          "a": "No. Earlier Premium purchases unlock everything Pro does."
-        },
-        {
-          "q": "How do I cancel an old Premium yearly subscription?",
-          "a": "Open Settings on your iPhone, tap your name, then Subscriptions. Cancel at least 24 hours before it renews."
-        },
-        {
-          "q": "Is my data private?",
-          "a": "Yes. Your logs are stored on your device and never sent to us."
-        }
-      ],
-      "data": {
-        "ads": "None",
-        "tracking_prompt": false,
-        "consent_form": false,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": true,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-03",
-        "sections": [
-          {
-            "h": "Your data stays on your device",
-            "p": [
-              "Unhabit has no accounts and no server run by us. Your unhabits, cravings, slips, check-ins and notes are stored on your iPhone. We cannot see them and they are never sent to us."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Unhabit has no ads and no third-party advertising or analytics SDKs, and does not track you across apps or websites. We don't collect your name, email, location, contacts, advertising identifiers or usage analytics."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "Unhabit Pro is a one-time in-app purchase. Earlier Unhabit Premium purchases (yearly subscription or Lifetime) are still honored. Apple processes all payments through the App Store; we never receive your payment details. Apple confirms what you own on your device so Pro can unlock and restore. Apple's handling is covered by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/)."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Not used. Your logs are not synced to any cloud service."
-            ]
-          },
-          {
-            "h": "Widgets",
-            "p": [
-              "Home and Lock Screen widgets read your progress from a shared container on the same device. Nothing leaves your iPhone."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "Notifications, only if you turn on reminders. Reminders are scheduled on your device and no notification content leaves your iPhone. Unhabit does not access location, contacts, camera, microphone, photos or Apple Health."
-            ]
-          },
-          {
-            "h": "Exports",
-            "p": [
-              "If you export your recovery report, it goes only where you choose to send it from the share sheet."
-            ]
-          },
-          {
-            "h": "Your control",
-            "p": [
-              "Erase everything in Settings > Erase All Data. Deleting the app removes its data from your device."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Unhabit is not directed to children under 13, and we don't knowingly collect personal information from anyone."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "gridwell",
-      "aliases": [],
-      "name": "Gridwell",
-      "store_id": "6785329629",
-      "live": true,
-      "version": "1.1.0",
-      "category": "Puzzle",
-      "icon": "assets/icons/gridwell.png",
-      "header": null,
-      "tagline": "Sudoku that teaches you.",
-      "summary": "Sudoku and Killer Sudoku with teaching hints.",
-      "intro": [
-        "Gridwell is Sudoku and Killer Sudoku with hints that explain the technique behind the next move, not just the answer. Every puzzle has one solution and can be solved by logic alone."
-      ],
-      "lists": [
-        {
-          "title": "Highlights",
-          "items": [
-            "Classic Sudoku from Easy to Expert, plus Killer Sudoku",
-            "Teaching hints that name the technique",
-            "A daily puzzle",
-            "Forgiving by default: mistakes are counted but never end your game. Turn on 3 Strikes in Settings for a challenge",
-            "Pencil marks, smart highlighting, themes and light/dark support",
-            "Plays fully offline"
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to play. Optional reward videos, only when you tap: one more hint, take back a mistake, or a second chance in 3 Strikes. Never mid-game, no banners."
-        ],
-        "items": [
-          "Remove Ads: one purchase for every bonus without a video, plus the premium themes",
-          "Gridwell Premium: one-time unlock for unlimited teaching hints and premium themes, also with no videos"
-        ],
-        "after": [
-          "No subscription."
-        ]
-      },
-      "purchases": [
-        "Remove Ads",
-        "Gridwell Premium"
-      ],
-      "faq": [
-        {
-          "q": "How do I restore a purchase?",
-          "a": "Tap Restore Purchases in Settings with the same Apple Account."
-        },
-        {
-          "q": "Do I need internet?",
-          "a": "No for puzzles. Reward videos need a connection."
-        },
-        {
-          "q": "Where is my progress?",
-          "a": "On your device. Deleting the app removes it."
-        }
-      ],
-      "data": {
-        "ads": "Optional reward videos only",
-        "tracking_prompt": true,
-        "consent_form": true,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-03",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. No account, login or server run by us. Your settings and puzzle progress stay on your device."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Optional reward videos play only when you tap a bonus. There are no banners and no ads during a game. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
-              "Gridwell asks permission through Apple's App Tracking Transparency. If you decline, Gridwell plays the same and AdMob shows non-personalized ads.",
-              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "Remove Ads and Gridwell Premium are optional one-time purchases. No subscription. Apple processes all payments; we never see your payment details. Apple confirms purchases on your device so they unlock and restore."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Not used. Your progress stays on this device."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "The only permission Gridwell asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
-            ]
-          },
-          {
-            "h": "What we don't collect",
-            "p": [
-              "No name, email, contacts or analytics run by us."
-            ]
-          },
-          {
-            "h": "Your control",
-            "p": [
-              "Deleting the app removes all of its data from your device."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Not directed to children under 13. We don't knowingly collect personal information from children."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "jumpin-ninja",
-      "aliases": [],
-      "name": "Jumpin Ninja!",
-      "store_id": "1073269911",
-      "live": true,
-      "version": "1.7",
-      "category": "Action game",
-      "icon": "assets/icons/jumpin-ninja.png",
-      "header": null,
-      "tagline": "Tap to kick. Hold to slow time. Climb.",
-      "summary": "One-tap wall-kick climber.",
-      "intro": [
-        "A one-tap wall-kick climber. Kick between walls, juke in mid-air, and hold to enter Focus, slowing time to thread the gap before the rising blades catch you."
-      ],
-      "lists": [
-        {
-          "title": "Highlights",
-          "items": [
-            "Four worlds: Mountain Gorge, Bamboo Grove, Castle Siege and Neon City, each with its own hazards",
-            "Focus (slow time) for clean, cinematic dodges",
-            "Upgrade your Dojo, unlock ninjas, take on missions and earn belts",
-            "Collect shuriken and unlock outfits and trails",
-            "Progress follows you to a new iPhone through iCloud"
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to play. A Market with optional reward videos, never forced. Optional one-time purchases:"
-        ],
-        "items": [
-          "Ninja Pack (every skin)",
-          "Starter Bundle",
-          "Shuriken Doubler",
-          "Dojo Patron (reward bonuses with no video, plus the Patron outfit)",
-          "Storm Clan and Blossom Clan outfit sets"
-        ],
-        "after": [
-          "No subscription."
-        ]
-      },
-      "purchases": [
-        "Ninja Pack",
-        "Starter Bundle",
-        "Shuriken Doubler",
-        "Dojo Patron",
-        "Storm Clan",
-        "Blossom Clan"
-      ],
-      "faq": [
-        {
-          "q": "How do I restore purchases?",
-          "a": "Tap Restore Purchases in the shop with the same Apple Account."
-        },
-        {
-          "q": "Does it play offline?",
-          "a": "Yes. Reward videos need a connection."
-        },
-        {
-          "q": "Found a bug?",
-          "a": "Email support and include your iPhone model and iOS version."
-        }
-      ],
-      "data": {
-        "ads": "Optional reward videos only",
-        "tracking_prompt": true,
-        "consent_form": true,
-        "icloud": true,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-03",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. No account, login or server run by us."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Optional reward videos play only when you choose one in the Market. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices.",
-              "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
-              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Dojo Patron gives reward bonuses with no video."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "Optional one-time purchases: Ninja Pack, Starter Bundle, Shuriken Doubler, Dojo Patron, Storm Clan and Blossom Clan. No subscription. Apple processes all payments; we never see your payment details."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Your best score, shuriken, Dojo, unlocks, missions and settings are stored on your device and mirrored to your own iCloud account (iCloud key-value storage) so a reinstall or new iPhone keeps your progress. This uses Apple's iCloud under your Apple Account; we cannot see it. Turn off iCloud for the app in iPhone Settings to keep it on this device only."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
-            ]
-          },
-          {
-            "h": "Your control",
-            "p": [
-              "Deleting the app removes its on-device data. iCloud data can be removed in iPhone Settings > [your name] > iCloud > Manage Storage."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Not directed to children under 13. We don't knowingly collect personal information from children."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "potion-pour",
-      "aliases": [],
-      "name": "Potion Pour",
-      "store_id": "6821782979",
-      "live": false,
-      "version": "1.0",
-      "category": "Puzzle",
-      "icon": "assets/icons/potion-pour.png",
-      "header": "assets/headers/potion-pour.jpg",
-      "tagline": "Sort the colors. Brew new potions.",
-      "summary": "Cozy color-sort puzzle with brewing.",
-      "intro": [
-        "Potion Pour is a cozy color-sort puzzle. Sort each vial into a single pure color. On brew levels, pour two colors into the Cauldron to mix a brand-new potion and fill the order."
-      ],
-      "lists": [
-        {
-          "title": "Highlights",
-          "items": [
-            "50 hand-tuned levels, every one solvable",
-            "The Cauldron: brew new colors from primaries",
-            "A Brew Lab and Potion Grimoire with 9 potions to discover",
-            "Earn 3 stars on every level and unlock new lab themes",
-            "Power-ups when you're stuck: Hint, Undo, Add-Vial and the Magic Wand",
-            "No timers, no lives. Plays offline"
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free with ads between levels and optional reward videos for power-ups."
-        ],
-        "items": [
-          "Alchemist Pass (one-time): removes ads between levels and unlocks every theme",
-          "Starter Kit (one-time)",
-          "Coin packs and the Piggy Bank (used up when spent)"
-        ],
-        "after": [
-          "No subscription."
-        ]
-      },
-      "purchases": [
-        "Alchemist Pass",
-        "Starter Kit",
-        "Coin packs",
-        "Piggy Bank"
-      ],
-      "faq": [
-        {
-          "q": "How do I restore purchases?",
-          "a": "Open the Shop and tap Restore Purchases with the same Apple Account. Coin packs and the Piggy Bank are used up and aren't restored."
-        },
-        {
-          "q": "Can I play without personalized ads?",
-          "a": "Yes. Decline tracking and you still play every level, with non-personalized ads."
-        },
-        {
-          "q": "Where is my progress?",
-          "a": "On your device. Deleting the app removes it."
-        }
-      ],
-      "data": {
-        "ads": "Ads between levels and optional reward videos",
-        "tracking_prompt": true,
-        "consent_form": true,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-03",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. Potion Pour has no account, no login and no sign-up. We do not ask for your name, email, location, contacts or photos, and we do not run our own analytics."
-            ]
-          },
-          {
-            "h": "On your device",
-            "p": [
-              "Your game progress, coin balance, unlocked themes and settings are stored on your device. This data never leaves your device and we cannot see it. Deleting the app removes it."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Potion Pour shows ads through Google AdMob: full-screen ads between levels and optional reward videos you can choose to watch for a power-up. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice later under Ad Privacy Choices in Settings.",
-              "On first launch the app asks permission through Apple's App Tracking Transparency. If you decline, AdMob serves only non-personalized ads and the game plays exactly the same.",
-              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. The Alchemist Pass removes ads between levels. Ads are set to a family-friendly maximum content rating."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "The Alchemist Pass and Starter Kit (one-time), plus coin packs and the Piggy Bank (consumable). Apple processes all payments through the App Store; we never see or store your payment details. Restore Purchases uses your Apple Account through Apple's servers."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Not used."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "The app is rated 4+ but is not in the Kids category. We don't knowingly collect personal information from children."
-            ]
-          },
-          {
-            "h": "Third parties",
-            "p": [
-              "Apple (App Store purchases) and Google AdMob (ads), each under its own privacy policy. These are the only third parties involved."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "full-send-aerospace",
-      "aliases": [],
-      "name": "Full Send Aerospace",
-      "store_id": "6822322930",
-      "live": false,
-      "version": "2.0",
-      "category": "Simulation game",
-      "icon": "assets/icons/full-send-aerospace.png",
-      "header": null,
-      "tagline": "Build it. Fly it. Stick the landing.",
-      "summary": "Build, fly and land your own rockets.",
-      "intro": [
-        "Build a rocket, fly it to orbit with your own thumbs, then land the booster on a ship at sea and fly it again on the next job. About a minute to build, a minute to fly, and a landing that can go beautifully or hilariously wrong."
-      ],
-      "lists": [
-        {
-          "title": "Highlights",
-          "items": [
-            "Stack it: pick a booster, upper stage, strap-on pods and landing legs for each contract, with live gauges for lift, reach and cost",
-            "Fly it: throttle, lean onto the ribbon, stage in the green and cut the engine on the orbit you were paid for",
-            "Stick it: touch down on a rolling ship, the Moon or Mars",
-            "7 chapters from a suborbital hop to Mars, 25 payloads, 30 R&D upgrades, 3 rocket families, 74 mission patches",
-            "Your hangar: reflown boosters with flight counts, wear and nicknames",
-            "Your own space station with 10 modules, cargo runs and docking by hand",
-            "Daily Launch Window and weekly events",
-            "On a folding iPhone, half-fold it for a Mission Control console"
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to play. Optional reward videos give bonuses, up to 10 a day, never forced, no banners. Optional purchases:"
-        ],
-        "items": [
-          "Stardust packs and Legacy Medal packs",
-          "Ad Tickets",
-          "Starter and Founders packs",
-          "Remove Ads (every bonus without a video)"
-        ],
-        "after": [
-          "No subscription."
-        ]
-      },
-      "purchases": [
-        "Stardust packs",
-        "Legacy Medal packs",
-        "Ad Tickets",
-        "Starter Pack",
-        "Founders Pack",
-        "Remove Ads"
-      ],
-      "faq": [
-        {
-          "q": "Where is my progress?",
-          "a": "Only on your iPhone. No account or server. Deleting the game deletes progress."
-        },
-        {
-          "q": "How do I restore purchases?",
-          "a": "Tap Restore Purchases in the store with the same Apple Account."
-        },
-        {
-          "q": "Are the companies real?",
-          "a": "No. Full Send Aerospace is a parody; all companies, people and products are fictional."
-        }
-      ],
-      "data": {
-        "ads": "Optional reward videos only",
-        "tracking_prompt": false,
-        "consent_form": true,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-03",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. The game has no accounts, logins or sign-ups, and we run no analytics or servers."
-            ]
-          },
-          {
-            "h": "On your device",
-            "p": [
-              "Your progress, settings and records, including Daily Launch Window scores, stay on your device. We cannot see them, and deleting the game removes them."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Optional reward videos come through Google AdMob, up to 10 a day. There are no banner or interstitial ads. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice at any time in the game's MORE menu under ADS & PRIVACY.",
-              "The game does not ask for tracking permission and does not use your advertising identifier. AdMob may collect device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads, the Founders Pack or an Ad Ticket skips the video for a bonus."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "All purchases are optional and processed by Apple through the App Store; we never see your payment details. There is no subscription."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Not used."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "None. No notifications, and no access to location, contacts, camera, microphone or photos."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Not directed to children under 13 and not in the Kids category. We don't knowingly collect personal information from children."
-            ]
-          },
-          {
-            "h": "Third parties",
-            "p": [
-              "Apple (App Store purchases) and Google AdMob (reward videos), each under its own privacy policy."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "pointy-stick-defense",
-      "aliases": [],
-      "name": "Pointy Stick",
-      "store_id": "6822268236",
-      "live": false,
-      "version": "2.0",
-      "category": "Casual game",
-      "icon": "assets/icons/pointy-stick-defense.png",
-      "header": null,
-      "tagline": "Carry it, stack it, build the drones.",
-      "summary": "Carry-and-stack drone startup game.",
-      "intro": [
-        "Run a scrappy drone startup out of a cramped office. Grab props, batteries and frames off the shelves and they stack up on your back. Carry them to the assembly bench, watch it build a drone, and scoop up the cash. Spend it on floor pads to open new rooms, shelves, benches and bigger carry loads."
-      ],
-      "lists": [
-        {
-          "title": "Highlights",
-          "items": [
-            "Carry and stack: the taller your stack, the more you earn, and the more it sways",
-            "Watch the corners: sharp turns and bumping into busy coworkers on coffee runs spill parts off the top",
-            "Turn finished drones into a crew that flies parts around the office for you",
-            "Test flights: every few drones, time each launch against the gusts for a bonus",
-            "Unlock new floors, benches, walk and build speed upgrades",
-            "iPhone Duo: on the open inner display, an Order Board sits beside a wider office view; in tabletop, the office is on top and the controls are on the bottom"
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to play. Optional bonus videos, only when you tap, for example to double a test-flight bonus. Optional one-time purchases:"
-        ],
-        "items": [
-          "Remove Ads ($5.99): skip the videos and get every bonus instantly",
-          "Desk Style Kit ($2.99): new desk styles and a gold stick"
-        ],
-        "after": [
-          "No subscription. Purchases from the earlier version of Pointy Stick restore Remove Ads."
-        ]
-      },
-      "purchases": [
-        "Remove Ads",
-        "Desk Style Kit"
-      ],
-      "faq": [
-        {
-          "q": "Where is my progress?",
-          "a": "Only on your iPhone. No account or server. Deleting the game deletes progress."
-        },
-        {
-          "q": "How do I restore purchases?",
-          "a": "Open the shop and tap Restore with the same Apple Account."
-        },
-        {
-          "q": "Are the companies real?",
-          "a": "No. Everything in the game is fictional."
-        }
-      ],
-      "data": {
-        "ads": "Optional bonus videos only",
-        "tracking_prompt": true,
-        "consent_form": true,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-03",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. No account, login or sign-up, and we run no servers or analytics. The game never asks for your name, email, location, contacts or photos."
-            ]
-          },
-          {
-            "h": "On your device",
-            "p": [
-              "Your office, cash, unlocks, purchases owned and settings (music, sound, haptics) are stored only on your iPhone. We cannot see them. Deleting the game removes them."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Optional bonus videos play only when you tap a bonus. There are no banner or interstitial ads. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown first, before any ad is requested, and you can change your choice later under Ad Privacy Choices in the shop menu.",
-              "The game then asks permission through Apple's App Tracking Transparency. If you decline, gameplay is the same and AdMob shows non-personalized ads.",
-              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads skips the videos and gives bonuses instantly."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "Remove Ads and the Desk Style Kit are optional one-time purchases. No subscription. Apple processes all payments through the App Store; we never see your payment details. Restore uses your Apple Account through Apple's servers."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Not used."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "The only permission the game asks for is App Tracking Transparency, described above. No notifications, and no access to location, camera, microphone, contacts or photos."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Not directed to children under 13 and not in the Kids category. We don't knowingly collect personal information from children."
-            ]
-          },
-          {
-            "h": "Third parties",
-            "p": [
-              "Apple (App Store purchases) and Google AdMob (bonus videos), each under its own privacy policy."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "twig-tinsel",
-      "aliases": [],
-      "name": "Twig & Tinsel: Christmas Tree",
-      "store_id": "6826637088",
-      "live": false,
-      "version": "1.0",
-      "category": "Games",
-      "icon": "assets/icons/twig-tinsel.png",
-      "header": "assets/headers/twig-tinsel.jpg",
-      "tagline": "Decorate a Christmas tree where every bough bends.",
-      "summary": "Ornament decorating game with springy boughs.",
-      "intro": [
-        "Hang an ornament and the branch dips, sways and settles. Hang a heavy brass bell on one side and the whole tree starts to lean. Trim it to the brief, keep it standing straight, then plug in the lights."
-      ],
-      "lists": [
-        {
-          "title": "What's inside",
-          "items": [
-            "24 decorating briefs from 8 households, each read out loud",
-            "Every household has its own tree: tabletop pine, blue spruce, noble fir, lodge pine or bare birch, small, medium or tall",
-            "Glass, felt, wood, brass and keepsake ornaments, each with its own weight",
-            "Lights and garlands you drag end to end between two hooks",
-            "Free Trim: decorate any tree with no brief, save it and keep a photo card",
-            "The Advent Box: a new ornament every day from December 1 to 24",
-            "Both Sides: dress the front and the back of one tree",
-            "Winter Lodge from December 26: pinecones, icicles, lanterns and six winter briefs"
-          ]
-        },
-        {
-          "title": "iPhone Duo",
-          "text": [
-            "Held like a book, the brief and the ornament box sit on one page and the tree on the other. Half folded on a table, the tree stands up and the box lies flat. Open flat, two people can trim Both Sides face to face."
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to play: the first brief from every household, Free Trim on the noble fir, Both Sides, the whole Advent Box and photo cards.",
-          "The Full Tree is a one-time purchase that adds the other 16 briefs, the 6 Winter Lodge briefs, every tree, every ornament family, all lights, garlands and toppers, six save shelves and twinkle clips. No subscription and no ads."
-        ]
-      },
-      "purchases": [
-        "Full Tree (one-time)"
-      ],
-      "faq": [
-        {
-          "q": "Can ornaments fall off?",
-          "a": "No. An overloaded bough lets the piece slide down to a lower bough, and if nothing can hold it, it goes back to the box."
-        },
-        {
-          "q": "Why did my lights go dark?",
-          "a": "A strand pulled tighter than its length unplugs. Move one end to a closer hook."
-        },
-        {
-          "q": "Where do I plug in the lights?",
-          "a": "Hang a light strand with both ends on hooks, then tap the outlet on the floor next to the tree stand. It pulses once a strand is ready."
-        },
-        {
-          "q": "I missed a day of the Advent Box.",
-          "a": "Nothing is lost. Every day that has passed opens when you visit, and opened pieces stay in your box."
-        },
-        {
-          "q": "How do I restore the Full Tree?",
-          "a": "Tap Restore on the Full Tree panel or in Settings, signed in with the same Apple Account."
-        },
-        {
-          "q": "Can I replay the tutorial?",
-          "a": "Yes. Settings > Replay tutorial."
-        }
-      ],
-      "data": {
-        "ads": "None",
-        "tracking_prompt": false,
-        "consent_form": false,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-11",
-        "sections": [
-          {
-            "h": "Your data stays on your device",
-            "p": [
-              "Twig & Tinsel has no accounts and no server run by us. Your progress (stars, finished trees, saved trees, which Advent pieces you have opened) and your settings (sound, music, voices, captions, haptics) are stored only on your iPhone. They are never sent to us or anyone else."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "No ads, no third-party advertising or analytics SDKs, and no tracking across apps or websites. We don't collect your name, email, location, contacts, advertising identifiers or usage analytics. The game doesn't need the internet to play."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "The optional Full Tree is a one-time in-app purchase. Apple processes all payments through the App Store; we never receive your payment details. Apple confirms what you own on your device so the Full Tree can unlock and restore. Apple's handling is covered by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/)."
-            ]
-          },
-          {
-            "h": "iCloud",
-            "p": [
-              "Not used. Your progress is not synced to any cloud service."
-            ]
-          },
-          {
-            "h": "Photos",
-            "p": [
-              "Photo cards and twinkle clips are shared through the iOS share sheet and go only where you send them. If you pick Save Image there, iOS asks once for permission to add it to your photo library. The app never reads your photos."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "Add to Photos, only if you save a photo card from the share sheet. Twig & Tinsel does not access location, contacts, camera, microphone, notifications or Apple Health."
-            ]
-          },
-          {
-            "h": "Your control",
-            "p": [
-              "Deleting the app removes its data from your device."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Twig & Tinsel collects no personal information from anyone, including children."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "going-up",
-      "aliases": [],
-      "name": "Going Up! Elevator Puzzle",
-      "store_id": "6822757220",
-      "live": false,
-      "version": "1.0",
-      "category": "Puzzle game",
-      "icon": "assets/icons/going-up.png",
-      "header": null,
-      "tagline": "Last on, first off.",
-      "summary": "Elevator loading logic puzzle.",
-      "intro": [
-        "You run the elevator in a busy building. Riders stand in the car in the order they board, and whoever got on last is right by the door. The car stops at every floor from the bottom up, and the rider at the door steps out at their floor, until someone headed higher is in the way. Load it right and everybody gets home in one smooth trip."
-      ],
-      "lists": [
-        {
-          "title": "What's inside",
-          "items": [
-            "60 buildings across Maple Street, Harbor Heights, Velvet Tower, Pairview Plaza and Skyline One",
-            "A guided first building that walks you through boarding, the bench and GO",
-            "VIPs in top hats who always stand at the door, and twins who take two spots",
-            "No timers and no lives: undo any move before you send the car",
-            "Plays offline, no account"
-          ]
-        },
-        {
-          "title": "iPhone Duo",
-          "text": [
-            "Open it up and the building sits on one page while the other shows a floor board and a live preview of who gets out on which floor if you send the car right now. Half folded on a table, the building stands up and the lobby, bench and keys lie flat."
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to play. Optional reward videos for an extra hint or +2 trips when you run out, never forced, and never in the first three buildings. No banners and no ads between levels.",
-          "Optional purchases:"
-        ],
-        "items": [
-          "Remove Ads (extra hints and +2 trips with no video)",
-          "Starter Pack (1,000 coins, 3 Rewinds, 3 Extra Seats)",
-          "500, 3,000 and 7,000 coin packs"
-        ],
-        "after": [
-          "No subscription. Every building can be finished without buying anything."
-        ]
-      },
-      "purchases": [
-        "Remove Ads",
-        "Starter Pack",
-        "500 Coins",
-        "3000 Coins",
-        "7000 Coins"
-      ],
-      "faq": [
-        {
-          "q": "Why did nobody get out?",
-          "a": "The rider at the door was going higher than the floor the car stopped at, so everyone behind them rode back down. Put the lowest floor at the door before you tap GO."
-        },
-        {
-          "q": "How do I use the bench?",
-          "a": "Tap the rider standing at the car door to sit them on the bench. Tap a benched rider to board them again. They step in at the door."
-        },
-        {
-          "q": "How do I see the first-building guide again?",
-          "a": "Settings, then Replay the first-building guide. It plays next time you open Maple Street 1."
-        },
-        {
-          "q": "How do I restore purchases?",
-          "a": "Tap Restore Purchases in the Shop or in Settings, signed in with the same Apple Account."
-        },
-        {
-          "q": "Found a bug?",
-          "a": "Email support and include your iPhone model and iOS version."
-        }
-      ],
-      "data": {
-        "ads": "Optional reward videos only",
-        "tracking_prompt": true,
-        "consent_form": true,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-11",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. No account, login or server run by us. Your progress, coins and settings stay on your device."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Optional reward videos play only when you choose one (an extra hint, or +2 trips when you run out). There are no banners and no ads between levels, and no videos are offered in the first three buildings. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
-              "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
-              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads gives every reward with no video."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "Optional purchases: Remove Ads and the Starter Pack (one-time), and 500, 3,000 and 7,000 coin packs. No subscription. Apple processes all payments; we never see your payment details."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
-            ]
-          },
-          {
-            "h": "Your control",
-            "p": [
-              "Deleting the app removes its data from your device."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Not directed to children under 13. We don't knowingly collect personal information from children."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "slug": "scribble-squad",
-      "aliases": [],
-      "name": "Scribble Squad: Draw Puzzle",
-      "store_id": "6822509644",
-      "live": false,
-      "version": "1.0",
-      "category": "Puzzle game",
-      "icon": "assets/icons/scribble-squad.png",
-      "header": null,
-      "tagline": "Draw the way. Save the squad.",
-      "summary": "Line-drawing puzzle with a marching squad.",
-      "intro": [
-        "Five doodle kids march out of a hatch and they won't stop walking. Every line you draw with your limited ink turns into solid ground, so you draw bridges, ramps and walls to get them to the door. Steep lines are walls, big drops knock walkers out, and you can keep drawing while they're on the move."
-      ],
-      "lists": [
-        {
-          "title": "What's inside",
-          "items": [
-            "100 puzzles in 10 chapters, from Sketchbook to Final Exam",
-            "Springs, fans, belts, saws, no-draw zones, short pencils and two start boxes",
-            "A daily puzzle with a bigger squad and a streak to keep",
-            "A guided first level, and hints that show a dotted outline of one way through",
-            "Plays offline, no account"
-          ]
-        },
-        {
-          "title": "iPhone Duo",
-          "text": [
-            "Open it up and the level sits on one page while the other keeps Pip's note for the level, a live count of who's walking, home and lost, Hint and Retry with your lines, and the chapter map. Half folded on a table, the page stands up and the controls lie flat."
-          ]
-        }
-      ],
-      "pricing": {
-        "text": [
-          "Free to play. Optional reward videos for an extra hint when you run out, or to retry a level with 50% more ink, never forced. No banners and no ads between levels.",
-          "Optional purchases:"
-        ],
-        "items": [
-          "Remove Ads (extra hints and the bonus ink retry with no video)",
-          "10 Hints"
-        ],
-        "after": [
-          "No subscription. Every level can be finished without buying anything."
-        ]
-      },
-      "purchases": [
-        "Remove Ads",
-        "10 Hints"
-      ],
-      "faq": [
-        {
-          "q": "Why did my walkers get knocked out?",
-          "a": "They fell too far. Draw a gentle ramp or slide down instead of a sheer drop."
-        },
-        {
-          "q": "Why do walkers turn around?",
-          "a": "Steep lines count as walls. Walkers turn back when they bump one, so keep bridges and ramps gentle."
-        },
-        {
-          "q": "How do I see the first-level lesson again?",
-          "a": "Settings, then Replay tutorial. It plays next time you open level 1."
-        },
-        {
-          "q": "How do I restore purchases?",
-          "a": "Tap Restore Purchases in Settings or on the Remove Ads card, signed in with the same Apple Account."
-        },
-        {
-          "q": "Found a bug?",
-          "a": "Email support and include your iPhone model and iOS version."
-        }
-      ],
-      "data": {
-        "ads": "Optional reward videos only",
-        "tracking_prompt": true,
-        "consent_form": true,
-        "icloud": false,
-        "account": false,
-        "subscription": false,
-        "notifications": false,
-        "health": false
-      },
-      "privacy": {
-        "updated": "2026-11-11",
-        "sections": [
-          {
-            "h": "Information we collect",
-            "p": [
-              "None directly. No account, login or server run by us. Your progress, hints and settings stay on your device."
-            ]
-          },
-          {
-            "h": "Advertising and tracking",
-            "p": [
-              "Optional reward videos play only when you choose one (an extra hint when you run out, or a retry with 50% more ink after a miss). There are no banners and no ads between levels. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
-              "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
-              "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads gives every reward with no video."
-            ]
-          },
-          {
-            "h": "Purchases",
-            "p": [
-              "Optional purchases: Remove Ads (one-time) and 10 Hints. No subscription. Apple processes all payments; we never see your payment details."
-            ]
-          },
-          {
-            "h": "Permissions",
-            "p": [
-              "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
-            ]
-          },
-          {
-            "h": "Your control",
-            "p": [
-              "Deleting the app removes its data from your device. Settings also has Reset Progress."
-            ]
-          },
-          {
-            "h": "Children",
-            "p": [
-              "Not directed to children under 13. We don't knowingly collect personal information from children."
-            ]
-          }
-        ]
-      }
+     "title": "iPhone Duo",
+     "text": [
+      "On the open inner display, the menu sits on the left page and the calculator on the right, with your live score next to your inputs."
+     ]
     }
-  ]
+   ],
+   "pricing": {
+    "text": [
+     "Free to score a test in every branch. Ads appear on result screens.",
+     "The Full Version is a one-time purchase per branch, or All Branches unlocks every branch, including branches added later. Any purchase removes ads. No subscription.",
+     "Full Version adds saved results and history, event-by-event breakdowns, target and goal planners, and branch extras like combat fitness tests, body composition, scoring tables and guided timers."
+    ]
+   },
+   "purchases": [
+    "Army Full Version",
+    "Navy Full Version",
+    "Air Force Full Version",
+    "Marine Corps Full Version",
+    "Coast Guard Full Version",
+    "SOF Screening Full Version",
+    "All Branches"
+   ],
+   "faq": [
+    {
+     "q": "Is this an official app?",
+     "a": "No. Fitness Test Pro Elite is an independent, unofficial calculator. It is not affiliated with, endorsed by or sponsored by the U.S. Army, Navy, Air Force, Marine Corps, Coast Guard, Department of Defense, Department of Homeland Security or any government agency. Official results come from your command's fitness program and current policy."
+    },
+    {
+     "q": "How do I restore a purchase?",
+     "a": "Tap Restore Purchases in the paywall or in About, signed in with the same Apple Account."
+    },
+    {
+     "q": "How do I remove ads?",
+     "a": "Buy any branch or All Branches."
+    },
+    {
+     "q": "Where are my results saved?",
+     "a": "On your device only. No login, no account, no cloud sync."
+    }
+   ],
+   "data": {
+    "ads": "Banner and full-screen ads (free version)",
+    "tracking_prompt": true,
+    "consent_form": true,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-03",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. There is no account, login or server run by us. The scores, measurements and results you enter stay on your device. We cannot see them."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "The free version shows ads on result screens (a banner and occasional full-screen ads). Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice later under Ad Privacy Choices in the app.",
+       "On first launch the app asks permission through Apple's App Tracking Transparency. If you decline, you still get every feature and AdMob shows non-personalized ads.",
+       "AdMob may collect your device's advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Any purchase removes ads."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Optional one-time purchases unlock the Full Version for a branch (Army, Navy, Air Force, Marine Corps, Coast Guard, SOF screening) or All Branches. There is no subscription. Apple processes all payments through the App Store; we never see your payment details. Apple confirms your purchases on your device so they can unlock and restore."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Not used. Your results are not synced anywhere."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "The only permission the app asks for is App Tracking Transparency, described above. It does not access Apple Health, location, contacts, camera, microphone or photos."
+      ]
+     },
+     {
+      "h": "What we don't collect",
+      "p": [
+       "No name, email, contacts or analytics run by us."
+      ]
+     },
+     {
+      "h": "Your control",
+      "p": [
+       "Delete saved results in the app. Deleting the app removes all of its data from your device."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Not directed to children under 13. We don't knowingly collect personal information from children."
+      ]
+     },
+     {
+      "h": "Not affiliated",
+      "p": [
+       "Fitness Test Pro Elite is independent and not affiliated with or endorsed by any military branch, the Department of Defense, the Department of Homeland Security or any government agency."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "unhabit",
+   "aliases": [],
+   "name": "Unhabit",
+   "store_id": "6782653637",
+   "live": true,
+   "version": "1.1.0",
+   "category": "Health & Fitness",
+   "icon": "assets/icons/unhabit.png",
+   "header": null,
+   "tagline": "Quit habits and track recovery, without the all-or-nothing reset.",
+   "summary": "Quit habits and track recovery.",
+   "intro": [
+    "Most habit trackers treat one slip like a full reset. Unhabit helps you recover quickly, understand your triggers and keep moving forward. Log cravings in seconds, record slips without losing your journey, and watch your Recovery Score grow."
+   ],
+   "lists": [
+    {
+     "title": "Highlights",
+     "items": [
+      "Log cravings and slips in seconds",
+      "Recovery Score instead of fragile streaks",
+      "Milestones, patterns and triggers",
+      "Export your recovery report",
+      "Private and local-first: your logs stay on your iPhone"
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Unhabit is free and tracks two unhabits at once. Unhabit Pro is a one-time purchase with no subscription and no ads. Pro adds:"
+    ],
+    "items": [
+     "Track every unhabit at once",
+     "Streak history and advanced analytics",
+     "All recovery insights and full weekly reviews",
+     "The full milestone path",
+     "Home and Lock Screen widgets",
+     "Extra looks with matching app icons"
+    ],
+    "after": [
+     "Earlier Unhabit Premium purchases (yearly or Lifetime) keep everything."
+    ]
+   },
+   "purchases": [
+    "Unhabit Pro (one-time)"
+   ],
+   "faq": [
+    {
+     "q": "How do I restore Pro?",
+     "a": "Tap Restore Purchases in Settings, signed in with the same Apple Account."
+    },
+    {
+     "q": "I had Premium. Do I need Pro?",
+     "a": "No. Earlier Premium purchases unlock everything Pro does."
+    },
+    {
+     "q": "How do I cancel an old Premium yearly subscription?",
+     "a": "Open Settings on your iPhone, tap your name, then Subscriptions. Cancel at least 24 hours before it renews."
+    },
+    {
+     "q": "Is my data private?",
+     "a": "Yes. Your logs are stored on your device and never sent to us."
+    }
+   ],
+   "data": {
+    "ads": "None",
+    "tracking_prompt": false,
+    "consent_form": false,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": true,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-03",
+    "sections": [
+     {
+      "h": "Your data stays on your device",
+      "p": [
+       "Unhabit has no accounts and no server run by us. Your unhabits, cravings, slips, check-ins and notes are stored on your iPhone. We cannot see them and they are never sent to us."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Unhabit has no ads and no third-party advertising or analytics SDKs, and does not track you across apps or websites. We don't collect your name, email, location, contacts, advertising identifiers or usage analytics."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Unhabit Pro is a one-time in-app purchase. Earlier Unhabit Premium purchases (yearly subscription or Lifetime) are still honored. Apple processes all payments through the App Store; we never receive your payment details. Apple confirms what you own on your device so Pro can unlock and restore. Apple's handling is covered by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/)."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Not used. Your logs are not synced to any cloud service."
+      ]
+     },
+     {
+      "h": "Widgets",
+      "p": [
+       "Home and Lock Screen widgets read your progress from a shared container on the same device. Nothing leaves your iPhone."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "Notifications, only if you turn on reminders. Reminders are scheduled on your device and no notification content leaves your iPhone. Unhabit does not access location, contacts, camera, microphone, photos or Apple Health."
+      ]
+     },
+     {
+      "h": "Exports",
+      "p": [
+       "If you export your recovery report, it goes only where you choose to send it from the share sheet."
+      ]
+     },
+     {
+      "h": "Your control",
+      "p": [
+       "Erase everything in Settings > Erase All Data. Deleting the app removes its data from your device."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Unhabit is not directed to children under 13, and we don't knowingly collect personal information from anyone."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "gridwell",
+   "aliases": [],
+   "name": "Gridwell",
+   "store_id": "6785329629",
+   "live": true,
+   "version": "1.1.0",
+   "category": "Puzzle",
+   "icon": "assets/icons/gridwell.png",
+   "header": null,
+   "tagline": "Sudoku that teaches you.",
+   "summary": "Sudoku and Killer Sudoku with teaching hints.",
+   "intro": [
+    "Gridwell is Sudoku and Killer Sudoku with hints that explain the technique behind the next move, not just the answer. Every puzzle has one solution and can be solved by logic alone."
+   ],
+   "lists": [
+    {
+     "title": "Highlights",
+     "items": [
+      "Classic Sudoku from Easy to Expert, plus Killer Sudoku",
+      "Teaching hints that name the technique",
+      "A daily puzzle",
+      "Forgiving by default: mistakes are counted but never end your game. Turn on 3 Strikes in Settings for a challenge",
+      "Pencil marks, smart highlighting, themes and light/dark support",
+      "Plays fully offline"
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play. Optional reward videos, only when you tap: one more hint, take back a mistake, or a second chance in 3 Strikes. Never mid-game, no banners."
+    ],
+    "items": [
+     "Remove Ads: one purchase for every bonus without a video, plus the premium themes",
+     "Gridwell Premium: one-time unlock for unlimited teaching hints and premium themes, also with no videos"
+    ],
+    "after": [
+     "No subscription."
+    ]
+   },
+   "purchases": [
+    "Remove Ads",
+    "Gridwell Premium"
+   ],
+   "faq": [
+    {
+     "q": "How do I restore a purchase?",
+     "a": "Tap Restore Purchases in Settings with the same Apple Account."
+    },
+    {
+     "q": "Do I need internet?",
+     "a": "No for puzzles. Reward videos need a connection."
+    },
+    {
+     "q": "Where is my progress?",
+     "a": "On your device. Deleting the app removes it."
+    }
+   ],
+   "data": {
+    "ads": "Optional reward videos only",
+    "tracking_prompt": true,
+    "consent_form": true,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-03",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. No account, login or server run by us. Your settings and puzzle progress stay on your device."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Optional reward videos play only when you tap a bonus. There are no banners and no ads during a game. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
+       "Gridwell asks permission through Apple's App Tracking Transparency. If you decline, Gridwell plays the same and AdMob shows non-personalized ads.",
+       "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Remove Ads and Gridwell Premium are optional one-time purchases. No subscription. Apple processes all payments; we never see your payment details. Apple confirms purchases on your device so they unlock and restore."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Not used. Your progress stays on this device."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "The only permission Gridwell asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
+      ]
+     },
+     {
+      "h": "What we don't collect",
+      "p": [
+       "No name, email, contacts or analytics run by us."
+      ]
+     },
+     {
+      "h": "Your control",
+      "p": [
+       "Deleting the app removes all of its data from your device."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Not directed to children under 13. We don't knowingly collect personal information from children."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "jumpin-ninja",
+   "aliases": [],
+   "name": "Jumpin Ninja!",
+   "store_id": "1073269911",
+   "live": true,
+   "version": "1.7",
+   "category": "Action game",
+   "icon": "assets/icons/jumpin-ninja.png",
+   "header": null,
+   "tagline": "Tap to kick. Hold to slow time. Climb.",
+   "summary": "One-tap wall-kick climber.",
+   "intro": [
+    "A one-tap wall-kick climber. Kick between walls, juke in mid-air, and hold to enter Focus, slowing time to thread the gap before the rising blades catch you."
+   ],
+   "lists": [
+    {
+     "title": "Highlights",
+     "items": [
+      "Four worlds: Mountain Gorge, Bamboo Grove, Castle Siege and Neon City, each with its own hazards",
+      "Focus (slow time) for clean, cinematic dodges",
+      "Upgrade your Dojo, unlock ninjas, take on missions and earn belts",
+      "Collect shuriken and unlock outfits and trails",
+      "Progress follows you to a new iPhone through iCloud"
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play. A Market with optional reward videos, never forced. Optional one-time purchases:"
+    ],
+    "items": [
+     "Ninja Pack (every skin)",
+     "Starter Bundle",
+     "Shuriken Doubler",
+     "Dojo Patron (reward bonuses with no video, plus the Patron outfit)",
+     "Storm Clan and Blossom Clan outfit sets"
+    ],
+    "after": [
+     "No subscription."
+    ]
+   },
+   "purchases": [
+    "Ninja Pack",
+    "Starter Bundle",
+    "Shuriken Doubler",
+    "Dojo Patron",
+    "Storm Clan",
+    "Blossom Clan"
+   ],
+   "faq": [
+    {
+     "q": "How do I restore purchases?",
+     "a": "Tap Restore Purchases in the shop with the same Apple Account."
+    },
+    {
+     "q": "Does it play offline?",
+     "a": "Yes. Reward videos need a connection."
+    },
+    {
+     "q": "Found a bug?",
+     "a": "Email support and include your iPhone model and iOS version."
+    }
+   ],
+   "data": {
+    "ads": "Optional reward videos only",
+    "tracking_prompt": true,
+    "consent_form": true,
+    "icloud": true,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-03",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. No account, login or server run by us."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Optional reward videos play only when you choose one in the Market. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices.",
+       "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
+       "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Dojo Patron gives reward bonuses with no video."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Optional one-time purchases: Ninja Pack, Starter Bundle, Shuriken Doubler, Dojo Patron, Storm Clan and Blossom Clan. No subscription. Apple processes all payments; we never see your payment details."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Your best score, shuriken, Dojo, unlocks, missions and settings are stored on your device and mirrored to your own iCloud account (iCloud key-value storage) so a reinstall or new iPhone keeps your progress. This uses Apple's iCloud under your Apple Account; we cannot see it. Turn off iCloud for the app in iPhone Settings to keep it on this device only."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
+      ]
+     },
+     {
+      "h": "Your control",
+      "p": [
+       "Deleting the app removes its on-device data. iCloud data can be removed in iPhone Settings > [your name] > iCloud > Manage Storage."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Not directed to children under 13. We don't knowingly collect personal information from children."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "potion-pour",
+   "aliases": [],
+   "name": "Potion Pour",
+   "store_id": "6821782979",
+   "live": false,
+   "version": "1.0",
+   "category": "Puzzle",
+   "icon": "assets/icons/potion-pour.png",
+   "header": "assets/headers/potion-pour.jpg",
+   "tagline": "Sort the colors. Brew new potions.",
+   "summary": "Cozy color-sort puzzle with brewing.",
+   "intro": [
+    "Potion Pour is a cozy color-sort puzzle. Sort each vial into a single pure color. On brew levels, pour two colors into the Cauldron to mix a brand-new potion and fill the order."
+   ],
+   "lists": [
+    {
+     "title": "Highlights",
+     "items": [
+      "50 hand-tuned levels, every one solvable",
+      "The Cauldron: brew new colors from primaries",
+      "A Brew Lab and Potion Grimoire with 9 potions to discover",
+      "Earn 3 stars on every level and unlock new lab themes",
+      "Power-ups when you're stuck: Hint, Undo, Add-Vial and the Magic Wand",
+      "No timers, no lives. Plays offline"
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free with ads between levels and optional reward videos for power-ups."
+    ],
+    "items": [
+     "Alchemist Pass (one-time): removes ads between levels and unlocks every theme",
+     "Starter Kit (one-time)",
+     "Coin packs and the Piggy Bank (used up when spent)"
+    ],
+    "after": [
+     "No subscription."
+    ]
+   },
+   "purchases": [
+    "Alchemist Pass",
+    "Starter Kit",
+    "Coin packs",
+    "Piggy Bank"
+   ],
+   "faq": [
+    {
+     "q": "How do I restore purchases?",
+     "a": "Open the Shop and tap Restore Purchases with the same Apple Account. Coin packs and the Piggy Bank are used up and aren't restored."
+    },
+    {
+     "q": "Can I play without personalized ads?",
+     "a": "Yes. Decline tracking and you still play every level, with non-personalized ads."
+    },
+    {
+     "q": "Where is my progress?",
+     "a": "On your device. Deleting the app removes it."
+    }
+   ],
+   "data": {
+    "ads": "Ads between levels and optional reward videos",
+    "tracking_prompt": true,
+    "consent_form": true,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-03",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. Potion Pour has no account, no login and no sign-up. We do not ask for your name, email, location, contacts or photos, and we do not run our own analytics."
+      ]
+     },
+     {
+      "h": "On your device",
+      "p": [
+       "Your game progress, coin balance, unlocked themes and settings are stored on your device. This data never leaves your device and we cannot see it. Deleting the app removes it."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Potion Pour shows ads through Google AdMob: full-screen ads between levels and optional reward videos you can choose to watch for a power-up. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice later under Ad Privacy Choices in Settings.",
+       "On first launch the app asks permission through Apple's App Tracking Transparency. If you decline, AdMob serves only non-personalized ads and the game plays exactly the same.",
+       "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. The Alchemist Pass removes ads between levels. Ads are set to a family-friendly maximum content rating."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "The Alchemist Pass and Starter Kit (one-time), plus coin packs and the Piggy Bank (consumable). Apple processes all payments through the App Store; we never see or store your payment details. Restore Purchases uses your Apple Account through Apple's servers."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Not used."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "The app is rated 4+ but is not in the Kids category. We don't knowingly collect personal information from children."
+      ]
+     },
+     {
+      "h": "Third parties",
+      "p": [
+       "Apple (App Store purchases) and Google AdMob (ads), each under its own privacy policy. These are the only third parties involved."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "full-send-aerospace",
+   "aliases": [],
+   "name": "Full Send Aerospace",
+   "store_id": "6822322930",
+   "live": false,
+   "version": "2.0",
+   "category": "Simulation game",
+   "icon": "assets/icons/full-send-aerospace.png",
+   "header": null,
+   "tagline": "Build it. Fly it. Stick the landing.",
+   "summary": "Build, fly and land your own rockets.",
+   "intro": [
+    "Build a rocket, fly it to orbit with your own thumbs, then land the booster on a ship at sea and fly it again on the next job. About a minute to build, a minute to fly, and a landing that can go beautifully or hilariously wrong."
+   ],
+   "lists": [
+    {
+     "title": "Highlights",
+     "items": [
+      "Stack it: pick a booster, upper stage, strap-on pods and landing legs for each contract, with live gauges for lift, reach and cost",
+      "Fly it: throttle, lean onto the ribbon, stage in the green and cut the engine on the orbit you were paid for",
+      "Stick it: touch down on a rolling ship, the Moon or Mars",
+      "7 chapters from a suborbital hop to Mars, 25 payloads, 30 R&D upgrades, 3 rocket families, 74 mission patches",
+      "Your hangar: reflown boosters with flight counts, wear and nicknames",
+      "Your own space station with 10 modules, cargo runs and docking by hand",
+      "Daily Launch Window and weekly events",
+      "On a folding iPhone, half-fold it for a Mission Control console"
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play. Optional reward videos give bonuses, up to 10 a day, never forced, no banners. Optional purchases:"
+    ],
+    "items": [
+     "Stardust packs and Legacy Medal packs",
+     "Ad Tickets",
+     "Starter and Founders packs",
+     "Remove Ads (every bonus without a video)"
+    ],
+    "after": [
+     "No subscription."
+    ]
+   },
+   "purchases": [
+    "Stardust packs",
+    "Legacy Medal packs",
+    "Ad Tickets",
+    "Starter Pack",
+    "Founders Pack",
+    "Remove Ads"
+   ],
+   "faq": [
+    {
+     "q": "Where is my progress?",
+     "a": "Only on your iPhone. No account or server. Deleting the game deletes progress."
+    },
+    {
+     "q": "How do I restore purchases?",
+     "a": "Tap Restore Purchases in the store with the same Apple Account."
+    },
+    {
+     "q": "Are the companies real?",
+     "a": "No. Full Send Aerospace is a parody; all companies, people and products are fictional."
+    }
+   ],
+   "data": {
+    "ads": "Optional reward videos only",
+    "tracking_prompt": false,
+    "consent_form": true,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-03",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. The game has no accounts, logins or sign-ups, and we run no analytics or servers."
+      ]
+     },
+     {
+      "h": "On your device",
+      "p": [
+       "Your progress, settings and records, including Daily Launch Window scores, stay on your device. We cannot see them, and deleting the game removes them."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Optional reward videos come through Google AdMob, up to 10 a day. There are no banner or interstitial ads. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice at any time in the game's MORE menu under ADS & PRIVACY.",
+       "The game does not ask for tracking permission and does not use your advertising identifier. AdMob may collect device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads, the Founders Pack or an Ad Ticket skips the video for a bonus."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "All purchases are optional and processed by Apple through the App Store; we never see your payment details. There is no subscription."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Not used."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "None. No notifications, and no access to location, contacts, camera, microphone or photos."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Not directed to children under 13 and not in the Kids category. We don't knowingly collect personal information from children."
+      ]
+     },
+     {
+      "h": "Third parties",
+      "p": [
+       "Apple (App Store purchases) and Google AdMob (reward videos), each under its own privacy policy."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "pointy-stick-defense",
+   "aliases": [],
+   "name": "Pointy Stick",
+   "store_id": "6822268236",
+   "live": false,
+   "version": "2.0",
+   "category": "Casual game",
+   "icon": "assets/icons/pointy-stick-defense.png",
+   "header": null,
+   "tagline": "Carry it, stack it, build the drones.",
+   "summary": "Carry-and-stack drone startup game.",
+   "intro": [
+    "Run a scrappy drone startup out of a cramped office. Grab props, batteries and frames off the shelves and they stack up on your back. Carry them to the assembly bench, watch it build a drone, and scoop up the cash. Spend it on floor pads to open new rooms, shelves, benches and bigger carry loads."
+   ],
+   "lists": [
+    {
+     "title": "Highlights",
+     "items": [
+      "Carry and stack: the taller your stack, the more you earn, and the more it sways",
+      "Watch the corners: sharp turns and bumping into busy coworkers on coffee runs spill parts off the top",
+      "Turn finished drones into a crew that flies parts around the office for you",
+      "Test flights: every few drones, time each launch against the gusts for a bonus",
+      "Unlock new floors, benches, walk and build speed upgrades",
+      "iPhone Duo: on the open inner display, an Order Board sits beside a wider office view; in tabletop, the office is on top and the controls are on the bottom"
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play. Optional bonus videos, only when you tap, for example to double a test-flight bonus. Optional one-time purchases:"
+    ],
+    "items": [
+     "Remove Ads ($5.99): skip the videos and get every bonus instantly",
+     "Desk Style Kit ($2.99): new desk styles and a gold stick"
+    ],
+    "after": [
+     "No subscription. Purchases from the earlier version of Pointy Stick restore Remove Ads."
+    ]
+   },
+   "purchases": [
+    "Remove Ads",
+    "Desk Style Kit"
+   ],
+   "faq": [
+    {
+     "q": "Where is my progress?",
+     "a": "Only on your iPhone. No account or server. Deleting the game deletes progress."
+    },
+    {
+     "q": "How do I restore purchases?",
+     "a": "Open the shop and tap Restore with the same Apple Account."
+    },
+    {
+     "q": "Are the companies real?",
+     "a": "No. Everything in the game is fictional."
+    }
+   ],
+   "data": {
+    "ads": "Optional bonus videos only",
+    "tracking_prompt": true,
+    "consent_form": true,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-03",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. No account, login or sign-up, and we run no servers or analytics. The game never asks for your name, email, location, contacts or photos."
+      ]
+     },
+     {
+      "h": "On your device",
+      "p": [
+       "Your office, cash, unlocks, purchases owned and settings (music, sound, haptics) are stored only on your iPhone. We cannot see them. Deleting the game removes them."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Optional bonus videos play only when you tap a bonus. There are no banner or interstitial ads. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown first, before any ad is requested, and you can change your choice later under Ad Privacy Choices in the shop menu.",
+       "The game then asks permission through Apple's App Tracking Transparency. If you decline, gameplay is the same and AdMob shows non-personalized ads.",
+       "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads skips the videos and gives bonuses instantly."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Remove Ads and the Desk Style Kit are optional one-time purchases. No subscription. Apple processes all payments through the App Store; we never see your payment details. Restore uses your Apple Account through Apple's servers."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Not used."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "The only permission the game asks for is App Tracking Transparency, described above. No notifications, and no access to location, camera, microphone, contacts or photos."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Not directed to children under 13 and not in the Kids category. We don't knowingly collect personal information from children."
+      ]
+     },
+     {
+      "h": "Third parties",
+      "p": [
+       "Apple (App Store purchases) and Google AdMob (bonus videos), each under its own privacy policy."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "twig-tinsel",
+   "aliases": [],
+   "name": "Twig & Tinsel: Christmas Tree",
+   "store_id": "6826637088",
+   "live": false,
+   "version": "1.0",
+   "category": "Games",
+   "icon": "assets/icons/twig-tinsel.png",
+   "header": "assets/headers/twig-tinsel.jpg",
+   "tagline": "Decorate a Christmas tree where every bough bends.",
+   "summary": "Ornament decorating game with springy boughs.",
+   "intro": [
+    "Hang an ornament and the branch dips, sways and settles. Hang a heavy brass bell on one side and the whole tree starts to lean. Trim it to the brief, keep it standing straight, then plug in the lights."
+   ],
+   "lists": [
+    {
+     "title": "What's inside",
+     "items": [
+      "24 decorating briefs from 8 households, each read out loud",
+      "Every household has its own tree: tabletop pine, blue spruce, noble fir, lodge pine or bare birch, small, medium or tall",
+      "Glass, felt, wood, brass and keepsake ornaments, each with its own weight",
+      "Lights and garlands you drag end to end between two hooks",
+      "Free Trim: decorate any tree with no brief, save it and keep a photo card",
+      "The Advent Box: a new ornament every day from December 1 to 24",
+      "Both Sides: dress the front and the back of one tree",
+      "Winter Lodge from December 26: pinecones, icicles, lanterns and six winter briefs"
+     ]
+    },
+    {
+     "title": "iPhone Duo",
+     "text": [
+      "Held like a book, the brief and the ornament box sit on one page and the tree on the other. Half folded on a table, the tree stands up and the box lies flat. Open flat, two people can trim Both Sides face to face."
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play: the first brief from every household, Free Trim on the noble fir, Both Sides, the whole Advent Box and photo cards.",
+     "The Full Tree is a one-time purchase that adds the other 16 briefs, the 6 Winter Lodge briefs, every tree, every ornament family, all lights, garlands and toppers, six save shelves and twinkle clips. No subscription and no ads."
+    ]
+   },
+   "purchases": [
+    "Full Tree (one-time)"
+   ],
+   "faq": [
+    {
+     "q": "Can ornaments fall off?",
+     "a": "No. An overloaded bough lets the piece slide down to a lower bough, and if nothing can hold it, it goes back to the box."
+    },
+    {
+     "q": "Why did my lights go dark?",
+     "a": "A strand pulled tighter than its length unplugs. Move one end to a closer hook."
+    },
+    {
+     "q": "Where do I plug in the lights?",
+     "a": "Hang a light strand with both ends on hooks, then tap the outlet on the floor next to the tree stand. It pulses once a strand is ready."
+    },
+    {
+     "q": "I missed a day of the Advent Box.",
+     "a": "Nothing is lost. Every day that has passed opens when you visit, and opened pieces stay in your box."
+    },
+    {
+     "q": "How do I restore the Full Tree?",
+     "a": "Tap Restore on the Full Tree panel or in Settings, signed in with the same Apple Account."
+    },
+    {
+     "q": "Can I replay the tutorial?",
+     "a": "Yes. Settings > Replay tutorial."
+    }
+   ],
+   "data": {
+    "ads": "None",
+    "tracking_prompt": false,
+    "consent_form": false,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-11",
+    "sections": [
+     {
+      "h": "Your data stays on your device",
+      "p": [
+       "Twig & Tinsel has no accounts and no server run by us. Your progress (stars, finished trees, saved trees, which Advent pieces you have opened) and your settings (sound, music, voices, captions, haptics) are stored only on your iPhone. They are never sent to us or anyone else."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "No ads, no third-party advertising or analytics SDKs, and no tracking across apps or websites. We don't collect your name, email, location, contacts, advertising identifiers or usage analytics. The game doesn't need the internet to play."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "The optional Full Tree is a one-time in-app purchase. Apple processes all payments through the App Store; we never receive your payment details. Apple confirms what you own on your device so the Full Tree can unlock and restore. Apple's handling is covered by the [Apple Privacy Policy](https://www.apple.com/legal/privacy/)."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Not used. Your progress is not synced to any cloud service."
+      ]
+     },
+     {
+      "h": "Photos",
+      "p": [
+       "Photo cards and twinkle clips are shared through the iOS share sheet and go only where you send them. If you pick Save Image there, iOS asks once for permission to add it to your photo library. The app never reads your photos."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "Add to Photos, only if you save a photo card from the share sheet. Twig & Tinsel does not access location, contacts, camera, microphone, notifications or Apple Health."
+      ]
+     },
+     {
+      "h": "Your control",
+      "p": [
+       "Deleting the app removes its data from your device."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Twig & Tinsel collects no personal information from anyone, including children."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "going-up",
+   "aliases": [],
+   "name": "Going Up! Elevator Puzzle",
+   "store_id": "6822757220",
+   "live": false,
+   "version": "1.0",
+   "category": "Puzzle game",
+   "icon": "assets/icons/going-up.png",
+   "header": null,
+   "tagline": "Last on, first off.",
+   "summary": "Elevator loading logic puzzle.",
+   "intro": [
+    "You run the elevator in a busy building. Riders stand in the car in the order they board, and whoever got on last is right by the door. The car stops at every floor from the bottom up, and the rider at the door steps out at their floor, until someone headed higher is in the way. Load it right and everybody gets home in one smooth trip."
+   ],
+   "lists": [
+    {
+     "title": "What's inside",
+     "items": [
+      "60 buildings across Maple Street, Harbor Heights, Velvet Tower, Pairview Plaza and Skyline One",
+      "A guided first building that walks you through boarding, the bench and GO",
+      "VIPs in top hats who always stand at the door, and twins who take two spots",
+      "No timers and no lives: undo any move before you send the car",
+      "Plays offline, no account"
+     ]
+    },
+    {
+     "title": "iPhone Duo",
+     "text": [
+      "Open it up and the building sits on one page while the other shows a floor board and a live preview of who gets out on which floor if you send the car right now. Half folded on a table, the building stands up and the lobby, bench and keys lie flat."
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play. Optional reward videos for an extra hint or +2 trips when you run out, never forced, and never in the first three buildings. No banners and no ads between levels.",
+     "Optional purchases:"
+    ],
+    "items": [
+     "Remove Ads (extra hints and +2 trips with no video)",
+     "Starter Pack (1,000 coins, 3 Rewinds, 3 Extra Seats)",
+     "500, 3,000 and 7,000 coin packs"
+    ],
+    "after": [
+     "No subscription. Every building can be finished without buying anything."
+    ]
+   },
+   "purchases": [
+    "Remove Ads",
+    "Starter Pack",
+    "500 Coins",
+    "3000 Coins",
+    "7000 Coins"
+   ],
+   "faq": [
+    {
+     "q": "Why did nobody get out?",
+     "a": "The rider at the door was going higher than the floor the car stopped at, so everyone behind them rode back down. Put the lowest floor at the door before you tap GO."
+    },
+    {
+     "q": "How do I use the bench?",
+     "a": "Tap the rider standing at the car door to sit them on the bench. Tap a benched rider to board them again. They step in at the door."
+    },
+    {
+     "q": "How do I see the first-building guide again?",
+     "a": "Settings, then Replay the first-building guide. It plays next time you open Maple Street 1."
+    },
+    {
+     "q": "How do I restore purchases?",
+     "a": "Tap Restore Purchases in the Shop or in Settings, signed in with the same Apple Account."
+    },
+    {
+     "q": "Found a bug?",
+     "a": "Email support and include your iPhone model and iOS version."
+    }
+   ],
+   "data": {
+    "ads": "Optional reward videos only",
+    "tracking_prompt": true,
+    "consent_form": true,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-11",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. No account, login or server run by us. Your progress, coins and settings stay on your device."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Optional reward videos play only when you choose one (an extra hint, or +2 trips when you run out). There are no banners and no ads between levels, and no videos are offered in the first three buildings. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
+       "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
+       "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads gives every reward with no video."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Optional purchases: Remove Ads and the Starter Pack (one-time), and 500, 3,000 and 7,000 coin packs. No subscription. Apple processes all payments; we never see your payment details."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
+      ]
+     },
+     {
+      "h": "Your control",
+      "p": [
+       "Deleting the app removes its data from your device."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Not directed to children under 13. We don't knowingly collect personal information from children."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "scribble-squad",
+   "aliases": [],
+   "name": "Scribble Squad: Draw Puzzle",
+   "store_id": "6822509644",
+   "live": false,
+   "version": "1.0",
+   "category": "Puzzle game",
+   "icon": "assets/icons/scribble-squad.png",
+   "header": null,
+   "tagline": "Draw the way. Save the squad.",
+   "summary": "Line-drawing puzzle with a marching squad.",
+   "intro": [
+    "Five doodle kids march out of a hatch and they won't stop walking. Every line you draw with your limited ink turns into solid ground, so you draw bridges, ramps and walls to get them to the door. Steep lines are walls, big drops knock walkers out, and you can keep drawing while they're on the move."
+   ],
+   "lists": [
+    {
+     "title": "What's inside",
+     "items": [
+      "100 puzzles in 10 chapters, from Sketchbook to Final Exam",
+      "Springs, fans, belts, saws, no-draw zones, short pencils and two start boxes",
+      "A daily puzzle with a bigger squad and a streak to keep",
+      "A guided first level, and hints that show a dotted outline of one way through",
+      "Plays offline, no account"
+     ]
+    },
+    {
+     "title": "iPhone Duo",
+     "text": [
+      "Open it up and the level sits on one page while the other keeps Pip's note for the level, a live count of who's walking, home and lost, Hint and Retry with your lines, and the chapter map. Half folded on a table, the page stands up and the controls lie flat."
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play. Optional reward videos for an extra hint when you run out, or to retry a level with 50% more ink, never forced. No banners and no ads between levels.",
+     "Optional purchases:"
+    ],
+    "items": [
+     "Remove Ads (extra hints and the bonus ink retry with no video)",
+     "10 Hints"
+    ],
+    "after": [
+     "No subscription. Every level can be finished without buying anything."
+    ]
+   },
+   "purchases": [
+    "Remove Ads",
+    "10 Hints"
+   ],
+   "faq": [
+    {
+     "q": "Why did my walkers get knocked out?",
+     "a": "They fell too far. Draw a gentle ramp or slide down instead of a sheer drop."
+    },
+    {
+     "q": "Why do walkers turn around?",
+     "a": "Steep lines count as walls. Walkers turn back when they bump one, so keep bridges and ramps gentle."
+    },
+    {
+     "q": "How do I see the first-level lesson again?",
+     "a": "Settings, then Replay tutorial. It plays next time you open level 1."
+    },
+    {
+     "q": "How do I restore purchases?",
+     "a": "Tap Restore Purchases in Settings or on the Remove Ads card, signed in with the same Apple Account."
+    },
+    {
+     "q": "Found a bug?",
+     "a": "Email support and include your iPhone model and iOS version."
+    }
+   ],
+   "data": {
+    "ads": "Optional reward videos only",
+    "tracking_prompt": true,
+    "consent_form": true,
+    "icloud": false,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-11",
+    "sections": [
+     {
+      "h": "Information we collect",
+      "p": [
+       "None directly. No account, login or server run by us. Your progress, hints and settings stay on your device."
+      ]
+     },
+     {
+      "h": "Advertising and tracking",
+      "p": [
+       "Optional reward videos play only when you choose one (an extra hint when you run out, or a retry with 50% more ink after a miss). There are no banners and no ads between levels. Ads are served by Google AdMob. Where the law requires it, Google's consent form is shown before any ad is requested, and you can change your choice under Ad Privacy Choices in Settings.",
+       "On first launch the game asks permission through Apple's App Tracking Transparency. If you decline, every feature still works and AdMob shows non-personalized ads.",
+       "AdMob may collect your advertising identifier (only if you allow tracking), device information, approximate location from your IP address, ad interactions and diagnostics, under [Google's Privacy Policy](https://policies.google.com/privacy). We don't receive or store this data. Remove Ads gives every reward with no video."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Optional purchases: Remove Ads (one-time) and 10 Hints. No subscription. Apple processes all payments; we never see your payment details."
+      ]
+     },
+     {
+      "h": "Permissions",
+      "p": [
+       "The only permission the game asks for is App Tracking Transparency, described above. No access to location, contacts, camera, microphone, photos or health data."
+      ]
+     },
+     {
+      "h": "Your control",
+      "p": [
+       "Deleting the app removes its data from your device. Settings also has Reset Progress."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "Not directed to children under 13. We don't knowingly collect personal information from children."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "slug": "authority-to-operate",
+   "aliases": [],
+   "name": "Authority to Operate",
+   "store_id": "6834279043",
+   "live": false,
+   "version": "1.0",
+   "category": "Games",
+   "icon": "assets/icons/authority-to-operate.png",
+   "header": "assets/headers/authority-to-operate.jpg",
+   "tagline": "Keep one system approved to run, a shift at a time.",
+   "summary": "Desk job sim about the security officer who gets a system signed off.",
+   "intro": [
+    "You're the new security officer on a test lab network. Work the ticket board, answer the people in chat, hunt through logs, and write the package the authorizing official has to sign. Honest calls pay off later; shortcuts come back as tickets."
+   ],
+   "lists": [
+    {
+     "title": "In the game",
+     "items": [
+      "A short opening story: your background, a job board, a recruiter call, a panel interview and your first offer",
+      "Shifts that run 08:00 to 17:00 with a standup, a live board, chat, email and interruptions",
+      "Two teammates, Noor and Wes, who take hand-offs and sometimes cut corners you can catch",
+      "Log hunts and scan findings with a timer",
+      "A security plan and a fix list the authorizing official marks up in red until she stamps it",
+      "A career that carries over week to week, with access requests that take real days",
+      "Assisted mode (the clock stops while you work a ticket) or Realistic mode (it never stops)"
+     ]
+    },
+    {
+     "title": "iPhone Duo",
+     "text": [
+      "Open it like a book and the desk splits at the fold: the board stays live on the left and any ticket you open shows on the right, like a second monitor. Half folded on a table, the board stands up and chat lies flat. On the outer screen it plays like a phone."
+     ]
+    }
+   ],
+   "pricing": {
+    "text": [
+     "Free to play from Junior ISSO to ISSO, with no time limit.",
+     "Senior ISSO (Pro) is a one-time purchase that opens three bigger systems, admin rights and the Senior ISSO promotion. It works on iPhone, iPad and Mac with the same Apple Account and is shared with Family Sharing. No subscription and no ads."
+    ]
+   },
+   "purchases": [
+    "Senior ISSO (one-time)"
+   ],
+   "faq": [
+    {
+     "q": "Is any of this real?",
+     "a": "No. The companies, people, systems and programs are made up. The ideas come from public security guidance, and nothing in it is a real organization's procedure."
+    },
+    {
+     "q": "Why is my access request still waiting?",
+     "a": "Bigger access takes real days on purpose, the way background checks do. Keep playing shifts; the request moves on its own and shows up in your week review."
+    },
+    {
+     "q": "Does my career carry to my iPad or Mac?",
+     "a": "Yes. It follows your Apple Account through iCloud. The device that saved last wins, so finish a shift before you switch."
+    },
+    {
+     "q": "How do I restore Senior ISSO?",
+     "a": "Open Settings (the gear next to End shift) and tap Restore on the Senior ISSO card, signed in with the same Apple Account."
+    },
+    {
+     "q": "Can I turn off the office noise?",
+     "a": "Yes. Settings has an Office sounds slider; all the way left is off. Sound effects have their own switch."
+    }
+   ],
+   "data": {
+    "ads": "None",
+    "tracking_prompt": false,
+    "consent_form": false,
+    "icloud": true,
+    "account": false,
+    "subscription": false,
+    "notifications": false,
+    "health": false
+   },
+   "privacy": {
+    "updated": "2026-11-12",
+    "sections": [
+     {
+      "h": "What the game keeps",
+      "p": [
+       "Authority to Operate saves your career (name you typed, the look you picked, weeks played, trust, access and records) and your settings (sound, office sounds, haptics). There's no account and no server of ours."
+      ]
+     },
+     {
+      "h": "iCloud",
+      "p": [
+       "Your career is also copied to iCloud key-value storage under your own Apple Account so it shows up on your other iPhone, iPad or Mac. Apple stores it; we can't see it. Sign out of iCloud or turn off iCloud for the app and it stays on that device only."
+      ]
+     },
+     {
+      "h": "No ads, no tracking",
+      "p": [
+       "There are no ads, no analytics or advertising SDKs, and no tracking across apps or websites. We don't collect contacts, location, identifiers or usage data."
+      ]
+     },
+     {
+      "h": "Purchases",
+      "p": [
+       "Senior ISSO is a one-time in-app purchase handled by Apple. We never see your payment details."
+      ]
+     },
+     {
+      "h": "Children",
+      "p": [
+       "The game doesn't knowingly collect anything from anyone, children included."
+      ]
+     },
+     {
+      "h": "Contact",
+      "p": [
+       "Questions: natedkinsupport@gmail.com"
+      ]
+     }
+    ]
+   }
+  }
+ ]
 }
